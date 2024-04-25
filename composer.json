@@ -1,13 +1,17 @@
 {
-    "name": "seu-vendor/php-chain",
-    "description": "Uma descrição breve sobre o que sua biblioteca faz.",
+    "name": "malgany/php-chain",
+    "description": "PHP Chain is a natural language processing library for PHP, inspired by the popular LangChain in Python. This library offers a modular and extensible approach to building NLP pipelines, allowing PHP developers to easily integrate natural language capabilities into their applications. PHP Chain supports a variety of NLP tasks, including but not limited to tokenization, semantic analysis, and text generation, providing a fluent interface and adaptable tool chains for different linguistic processing needs.",
     "type": "library",
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "8.2"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "SeuVendor\\MinhaBiblioteca\\": "src/"
+            "Malgany\\PhpChain\\": "src/"
         }
     },
     "authors": [
@@ -16,7 +20,5 @@
             "email": "yopsadida@gmail.com"
         }
     ],
-    "require-dev": {
-        "phpunit/phpunit": "^9.0"
-    }
+    "minimum-stability": "beta"
 }
